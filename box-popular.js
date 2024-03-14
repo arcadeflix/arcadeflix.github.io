@@ -1,4 +1,4 @@
-<script>
+
   // Obtém a URL da página atual
   const currentURL = window.location.href;
 
@@ -41,4 +41,3 @@
      
     }
   }
-</script>
