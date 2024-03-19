@@ -1,0 +1,35 @@
+.box {
+  display: none; /* Inicia todos os boxes como ocultos */
+}
+
+
+.item-list {
+  list-style: none;
+  padding: 0;
+}
+
+.item-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.item-thumbnail {
+  width: 120px;
+  height: 75px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.item-title {
+width: 200px;
+ color: #333;
+
+}
