@@ -1,5 +1,4 @@
-
-  // Obtém a URL da página atual
+// Obtém a URL da página atual
   const currentURL = window.location.href;
 
   // Define um objeto com as URLs correspondentes, os seletores dos elementos correspondentes e os títulos
@@ -12,6 +11,84 @@
     'https://testesitegame.blogspot.com/search/label/Jogos%20do%20Atari': {
       boxSelector: '.box-atari',
       widgetSelector: '#HTML29',
+},
+
+'https://testesitegame.blogspot.com/search/label/Sega%20Game%20Gear': {
+      boxSelector: '.box-gg',
+      widgetSelector: '#HTML29',
+
+},
+
+'https://testesitegame.blogspot.com/search/label/Sega%20Master': {
+      boxSelector: '.box-sms',
+      widgetSelector: '#HTML29',
+
+},
+
+
+'https://testesitegame.blogspot.com/search/label/Sega%20Genesis': {
+      boxSelector: '.box-genesis',
+      widgetSelector: '#HTML29',
+
+},
+
+'https://testesitegame.blogspot.com/search/label/Snes': {
+      boxSelector: '.box-snes',
+      widgetSelector: '#HTML29',
+
+},
+
+'https://testesitegame.blogspot.com/search/label/Nes': {
+      boxSelector: '.box-nes',
+      widgetSelector: '#HTML29',
+
+},
+
+'https://testesitegame.blogspot.com/search/label/N64': {
+      boxSelector: '.box-n64',
+      widgetSelector: '#HTML29',
+
+},
+
+'https://testesitegame.blogspot.com/search/label/PS1': {
+      boxSelector: '.box-ps1',
+      widgetSelector: '#HTML29',
+
+},
+
+'https://testesitegame.blogspot.com/search/label/NDS': {
+      boxSelector: '.box-nds',
+      widgetSelector: '#HTML29',
+
+},
+
+'https://testesitegame.blogspot.com/search/label/GBA': {
+      boxSelector: '.box-gba',
+      widgetSelector: '#HTML29',
+
+},
+
+'https://testesitegame.blogspot.com/search/label/GBC': {
+      boxSelector: '.box-gbc',
+      widgetSelector: '#HTML29',
+
+},
+
+'https://testesitegame.blogspot.com/search/label/HTML5%20Games': {
+      boxSelector: '.box-html5',
+      widgetSelector: '#HTML29',
+
+},
+
+'https://testesitegame.blogspot.com/search/label/PC%2FDOS': {
+      boxSelector: '.box-pcdos',
+      widgetSelector: '#HTML29',
+   
+},
+
+'https://testesitegame.blogspot.com/search/label/Flash%20Games': {
+      boxSelector: '.box-flash',
+      widgetSelector: '#HTML29',  
     
     }
   };
