@@ -68,7 +68,7 @@
 
 },
 
-'https://testesitegame.blogspot.com/search/label/GBC': {
+'https://testesitegame.blogspot.com/search/label/GameBoy%20Color': {
       boxSelector: '.box-gbc',
       widgetSelector: '#HTML29',
 
