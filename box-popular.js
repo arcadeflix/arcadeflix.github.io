@@ -5,90 +5,90 @@
   const urlToElementMap = {
     'https://testesitegame.blogspot.com/search/label/Arcade': {
       boxSelector: '.box-arcade',
-      widgetSelector: '#HTML29',
+      widgetSelector: '#HTML31',
      
     },
     'https://www.arcadeflix.com.br/search/label/Jogos%20do%20Atari': {
       boxSelector: '.box-atari',
-      widgetSelector: '#HTML29',
+      widgetSelector: '#HTML31',
 },
 
 'https://www.arcadeflix.com.br/search/label/Sega%20Game%20Gear': {
       boxSelector: '.box-gg',
-      widgetSelector: '#HTML29',
+      widgetSelector: '#HTML31',
 
 },
 
 'https://www.arcadeflix.com.br/search/label/Sega%20Master': {
       boxSelector: '.box-sms',
-      widgetSelector: '#HTML29',
+      widgetSelector: '#HTML31',
 
 },
 
 
 'https://www.arcadeflix.com.br/search/label/Sega%20Genesis': {
       boxSelector: '.box-genesis',
-      widgetSelector: '#HTML29',
+      widgetSelector: '#HTML31',
 
 },
 
 'https://www.arcadeflix.com.br/search/label/Snes': {
       boxSelector: '.box-snes',
-      widgetSelector: '#HTML29',
+      widgetSelector: '#HTML31',
 
 },
 
 'https://www.arcadeflix.com.br/search/label/Nes': {
       boxSelector: '.box-nes',
-      widgetSelector: '#HTML29',
+      widgetSelector: '#HTML31',
 
 },
 
 'https://www.arcadeflix.com.br/search/label/N64': {
       boxSelector: '.box-n64',
-      widgetSelector: '#HTML29',
+      widgetSelector: '#HTML31',
 
 },
 
 'https://www.arcadeflix.com.br/search/label/PS1': {
       boxSelector: '.box-ps1',
-      widgetSelector: '#HTML29',
+      widgetSelector: '#HTML31',
 
 },
 
 'https://www.arcadeflix.com.br/search/label/NDS': {
       boxSelector: '.box-nds',
-      widgetSelector: '#HTML29',
+      widgetSelector: '#HTML31',
 
 },
 
 'https://www.arcadeflix.com.br/search/label/GBA': {
       boxSelector: '.box-gba',
-      widgetSelector: '#HTML29',
+      widgetSelector: '#HTML31',
 
 },
 
 'https://www.arcadeflix.com.br/search/label/GameBoy%20Color': {
       boxSelector: '.box-gbc',
-      widgetSelector: '#HTML29',
+      widgetSelector: '#HTML31',
 
 },
 
 'https://www.arcadeflix.com.br/search/label/HTML5%20Games': {
       boxSelector: '.box-html5',
-      widgetSelector: '#HTML29',
+      widgetSelector: '#HTML31',
 
 },
 
 'https://www.arcadeflix.com.br/search/label/PC%2FDOS': {
       boxSelector: '.box-pcdos',
-      widgetSelector: '#HTML29',
+      widgetSelector: '#HTML31',
    
 },
 
 'https://www.arcadeflix.com.br/search/label/Flash%20Games': {
       boxSelector: '.box-flash',
-      widgetSelector: '#HTML29',  
+      widgetSelector: '#HTML31',  
     
     }
   };
@@ -101,7 +101,7 @@
 
 // Oculta todos os elementos de box e o widget
     const boxElements = document.querySelectorAll('.box');
-    const widgetElement = document.getElementById('HTML29');
+    const widgetElement = document.getElementById('HTML31');
     boxElements.forEach(boxElement => {
       boxElement.style.display = 'none';
     });
