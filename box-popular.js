@@ -3,7 +3,7 @@
 
   // Define um objeto com as URLs correspondentes, os seletores dos elementos correspondentes e os títulos
   const urlToElementMap = {
-    'https://www.arcadeflix.com.br/search/label/Arcade': {
+    'https://www.arcadeflix.com.br/search/label/Arcade';'https://www.arcadeflix.com.br/search/label/Arcade?&max-results': {
       boxSelector: '.box-arcade',
       widgetSelector: '#HTML31',
      
